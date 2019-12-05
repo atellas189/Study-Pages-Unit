@@ -3,7 +3,6 @@
     <head>
         <title> Study Pages Unit</title>
         <meta charset="utf-8">
-        <link rel="icon" href="duck.png" type="x-icon">
         <style>
             *{
                 zoom: 140%;
@@ -35,13 +34,47 @@
                 color: navy;
                 font-size: 40%;
             }
-        
+            h2{
+                text-decoration: underline;
+                padding-left: 35px;
+            }
+            table{
+                display: table;
+                width: 100%;
+                border-collapse: separate;
+                border: 6px solid black;
+                background-color: royalblue;
+                
+            }
+            th{
+                border: 2px solid navy;
+                border-top-left-radius: 10px;
+                border-bottom-left-radius: 10px;
+                background-color: teal;
+                font-size: 75%;
+                color: white;
+            }
+            td{
+                border: 2px solid navy;
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+                background-color: teal;
+                font-size: 50%;
+                color: teal;
+            }
+            td:hover{
+                color: white;
+                transition: 1s;
+            }
+
         
         
         
         </style>
     </head>
     <body>
+        
+        <h2>Elements</h2>
         <dl>
             <div>
                 <dt> Web Table</dt>
@@ -64,16 +97,6 @@
                 <br>
                      - By default, displays text as unformatted text and is aligned to the left within the cell
                 </dd>
-            </div>
-
-
-            <div>
-                <dt>Border-collapse</dt>
-                <dd>Separate or collapsed borders that apply to table cells</dd>
-            </div>
-            <div>
-                <dt>Border-spacing</dt>
-                <dd>Spacing between borders</dd>
             </div>
             <div>
                 <dt>Spanning Cells</dt>
@@ -100,62 +123,77 @@
                 <dd>Add borders to any part of a web table</dd>
             </div>
             <div>
-                <dt>yeet</dt>
-                <dd>Add borders to any part of a web table</dd>
+                <dt>rows</dt>
+                <dd>content from right to left </dd>
             </div>
             <div>
-                <dt>yeet</dt>
-                <dd>Add bordefgfgrt of a web table</dd>
+                <dt>columns</dt>
+                <dd>content from top to bottom </dd>
             </div>
             <div>
-                <dt>yeet</dt>
-                <dd>Add borders to any part of a web table</dd>
+                <dt>td</dt>
+                <dd>table definition</dd>
             </div>
             <div>
-                <dt>yeet</dt>
-                <dd>Add borders to any part of a web table</dd>
+                <dt>th</dt>
+                <dd> table header, by default, content centers and bolds</dd>
             </div>
             <div>
-                <dt>yeet</dt>
-                <dd>Add borders to any part of a web table</dd>
+                <dt>tr</dt>
+                <dd> table row</dd>
             </div>
             <div>
-                <dt>yeet</dt>
-                <dd>Add borders to any part of a web table</dd>
+                <dt>Collased Border Model</dt>
+                <dd>Borders from adjacent elements are merged together to form a single border</dd>
             </div>
             <div>
-                <dt>yeet</dt>
-                <dd>Add borders to any part of a web table</dd>
+                <dt>colgroup</dt>
+                <dd> A column that becomes more than 1 columns</dd>
             </div>
-            <div>
-                <dt>yeet</dt>
-                <dd>Add borders to any part of a web table</dd>
-            </div>
-            <div>
-                <dt>yeet</dt>
-                <dd>Add borders to any part of a web table</dd>
-            </div>
-            <div>
-                <dt>yeet</dt>
-                <dd>Add borders to any part of a web table</dd>
-            </div>
-            <div>
-                <dt>yeet</dt>
-                <dd>Add borders to any part of a web table</dd>
-            </div>
-            <div>
-                <dt>yeet</dt>
-                <dd>Add borders to any part of a web table</dd>
-            </div>
-            <div>
-                <dt>yeet</dt>
-                <dd>Add borders to any part of a web table</dd>
-            </div>
-
-            <div>
-                <dt>yeet</dt>
-                <dd>Add borders to any part of a web table</dd>
-            </div>
+            
+            
         </dl>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h2>Attributes</h2>
+        <h3> Hover over the box on the right to see an example!</h3>
+        <table>
+            <tr>
+                <th>border-collapse</th>
+                <td data-label="Attribute"> border-collaspe: type;</td>
+            </tr>
+            <tr>
+                <th>border-spacing</th>
+                <td data-label="Attribute"> border-spacing: value;</td>
+            </tr>
+            <tr>
+                <th>rowspan</th>
+                <td data-label="Attribute"> rowspan: 2;</td>
+            </tr>
+            <tr>
+                <th>colspan</th>
+                <td data-label="Attribute"> colspan: 2;</td>
+            </tr>
+            <tr>
+                <th>caption-side</th>
+                <td data-label="Attribute">caption-side: position;</td>
+            </tr>
+            <tr>
+                <th>colgroup</th>
+                <td data-label="Attribute"> colgroup="2"</td>
+            </tr>
+            <tr>
+                <th>vertical-align</th>
+                <td data-label="Attribute"> vertical-align: center;</td>
+            </tr>
+            <tr>
+                <th>display</th>
+                <td data-label="Attribute"> display: table;</td>
+            </tr>
+        </table>
     </body>
 </html>
